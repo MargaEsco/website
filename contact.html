@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Background Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="hero">
+        <video autoplay loop muted class="back-video">
+            <source src="MARGA1.mp4" type="video/mp4">
+        </video>
+        <div class="contact-text">
+            <h1>Contact Me</h1>
+        </div>
+        <nav class="nav-effect">
+            <div class="logo">MARGA</div>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="signin.html" class="sign-in">SIGN IN</a></li>
+            </ul>
+        </nav>
+
+        <div class="content-container">
+            <div class="image-circle-container">
+                <img src="call1.jpg" alt="image description" class="round-image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+        <form action="#" method="POST" class="contact-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
